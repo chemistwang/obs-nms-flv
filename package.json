@@ -4,12 +4,12 @@
     "description": "关于视音频的相关技术",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node ./app.js"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "",
     "license": "MIT",
     "dependencies": {
+        "express": "^4.17.1",
         "node-media-server": "^2.1.5"
     }
 }

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>flv</title>
+    <title>live-stream</title>
 </head>
 
 <body>
@@ -14,7 +14,7 @@
 
 </html>
 
-<script src="./lib/flvjs/flv.min.js"></script>
+<script src="./js/flv.min.js"></script>
 
 <script>
     console.log(flvjs, 'flvjs')
@@ -24,7 +24,8 @@
         var flvPlayer = flvjs.createPlayer({
             type: 'flv',
             // url: 'http://fed.dev.hzmantu.com/oa-project/bce0c613e364122715270faef1874251.flv',
-            url: 'http://localhost:8000/live/STREAM_NAME.flv',
+            url: 'http://49.234.205.139:8000/live/STREAM_NAME.flv',
+            // url: 'http://localhost:8000/live/STREAM_NAME.flv',
         });
         flvPlayer.attachMediaElement(videoElement);
         flvPlayer.load();
